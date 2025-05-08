@@ -1,0 +1,74 @@
+{
+  "words": [
+    {
+      "english": "water",
+      "myanmar": "ရေ",
+      "karen": "ထီ",
+      "phonetic": "/ˈwɔːtər/",
+      "definitions": [
+        {
+          "partOfSpeech": "noun",
+          "english": "a transparent, odorless, tasteless liquid",
+          "myanmar": "အရောင်မရှိ၊ အနံ့မရှိ၊ အရသာမရှိသော အရည်",
+          "karen": "အံၤချဲၣ်တုၤလၢ မ့ၢ်အီၤဒီး ကစၢၢ်ခဲလၢၥ်အီၤတုၤ"
+        }
+      ]
+    },
+    {
+      "english": "sun",
+      "myanmar": "နေ",
+      "karen": "မုၢ်",
+      "phonetic": "/sʌn/",
+      "definitions": [
+        {
+          "partOfSpeech": "noun",
+          "english": "the star around which the earth orbits",
+          "myanmar": "ကမ္ဘာမြေလှည့်ပတ်ရာကြယ်",
+          "karen": "ဟီၣ်ခိၣ်အလီၢ်ခံ လၢအပၥ်ဖျါထီၣ်အီၤ"
+        }
+      ]
+    },
+    {
+      "english": "mountain",
+      "myanmar": "တောင်",
+      "karen": "ထုၣ်",
+      "phonetic": "/ˈmaʊntən/",
+      "definitions": [
+        {
+          "partOfSpeech": "noun",
+          "english": "a large natural elevation of the earth's surface",
+          "myanmar": "မြေမျက်နှာပြင်အမြင့်ကြီးတစ်ခု",
+          "karen": "ဟီၣ်ခိၣ်အလီၢ်ခံ လၢအမ့ၢ်တၢ်မုၢ်လၢၥ်အပူၤ"
+        }
+      ]
+    },
+    {
+      "english": "house",
+      "myanmar": "အိမ်",
+      "karen": "ဟံၣ်",
+      "phonetic": "/haʊs/",
+      "definitions": [
+        {
+          "partOfSpeech": "noun",
+          "english": "a building for human habitation",
+          "myanmar": "လူသားများနေထိုင်ရန်အဆောက်အအုံ",
+          "karen": "တၢ်မုၢ်လၢအခီၣ်ထံးန့ၣ်လီၤ"
+        }
+      ]
+    },
+    {
+      "english": "food",
+      "myanmar": "အစားအစာ",
+      "karen": "အစူၤ",
+      "phonetic": "/fuːd/",
+      "definitions": [
+        {
+          "partOfSpeech": "noun",
+          "english": "any nutritious substance that people or animals eat",
+          "myanmar": "လူသားများ သို့မဟုတ် တိရစ္ဆာန်များစားသော အာဟာရဓာတ်",
+          "karen": "တၢ်လၢအမ့ၢ်အဂီၢ်ဒီး ကပာ်ဖှိၣ်လၢ လံၥ်စီဆှံအပူၤ"
+        }
+      ]
+    }
+  ]
+}

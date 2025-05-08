@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Multilingual Dictionary</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Multilingual Dictionary</h1>
+            <div class="language-tabs">
+                <button class="language-tab active" data-lang="all">All</button>
+                <button class="language-tab" data-lang="english">English</button>
+                <button class="language-tab" data-lang="myanmar">Myanmar</button>
+                <button class="language-tab" data-lang="karen">Karen</button>
+            </div>
+            <div class="search-box">
+                <input type="text" id="search-input" placeholder="Search in any language...">
+                <button id="search-btn"><i class="fas fa-search"></i></button>
+            </div>
+        </header>
+
+        <main>
+            <div class="result" id="result">
+                <div class="word-display">
+                    <div class="language-word">
+                        <span class="language-label">English:</span>
+                        <h3 id="english-word">-</h3>
+                    </div>
+                    <div class="language-word">
+                        <span class="language-label">Myanmar:</span>
+                        <h3 id="myanmar-word">-</h3>
+                    </div>
+                    <div class="language-word">
+                        <span class="language-label">Karen:</span>
+                        <h3 id="karen-word">-</h3>
+                    </div>
+                </div>
+                
+                <div class="phonetic">
+                    <span id="phonetic-text">Phonetic: -</span>
+                    <button id="sound-btn"><i class="fas fa-volume-up"></i></button>
+                </div>
+                
+                <div class="part-of-speech">
+                    <span id="part-of-speech-text">Part of Speech: -</span>
+                </div>
+                
+                <div class="definitions">
+                    <div class="definition">
+                        <span class="definition-label">English Definition:</span>
+                        <p id="english-definition">-</p>
+                    </div>
+                    <div class="definition">
+                        <span class="definition-label">Myanmar Definition:</span>
+                        <p id="myanmar-definition">-</p>
+                    </div>
+                    <div class="definition">
+                        <span class="definition-label">Karen Definition:</span>
+                        <p id="karen-definition">-</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="error" id="error">
+                <p>Search for a word in any language to begin...</p>
+            </div>
+        </main>
+
+        <footer>
+            <p>Multilingual Dictionary &copy; 2023 | English | Myanmar | East Pwo Karen</p>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
